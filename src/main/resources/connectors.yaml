@@ -71,6 +71,13 @@
   imageRepository: streamnative/pulsar-io-debezium-postgres
   version: 2.7.1
   imageTag: 2.7.1
+- id: pulsar-io-debezium-mssql
+  name: debezium-mssql
+  description: Debezium Microsoft SQL Server Source
+  sourceClass: org.apache.pulsar.io.debezium.mssql.DebeziumMsSqlSource
+  imageRepository: streamnative/pulsar-io-debezium-mssql
+  version: 2.10.1
+  imageTag: 2.10.1
 - id: pulsar-io-dynamodb
   name: dynamodb
   description: DynamoDB connectors
